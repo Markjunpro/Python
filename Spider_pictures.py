@@ -10,7 +10,5 @@ i = 0
 for url in listurl:
     f = open(str(i)+'.jpg',"wb")
     req = urllib2.urlopen(url)
-    buf = req.read()
     f.write(buf)
     i = i+1
-
