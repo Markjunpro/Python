@@ -25,5 +25,7 @@ def heap_sort(lists):
         adjust_heap(lists,0,i)
 
 lists = [1,-5,1,4,-56,25,-14,95,32,-41,25]
-heap_sort(lists)
 print (lists)
+heap_sort(lists)
+print ("heap sort:" + str(lists))
+
