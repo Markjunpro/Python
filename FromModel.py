@@ -1,3 +1,6 @@
+# usr/bin/env python3
+# tutorial: liaoxueefeng python tutorial, practical project Day3.
+
 import time ,uuid
 from orm import Model,StringField,BooleanField,FloatField,TextField
 
